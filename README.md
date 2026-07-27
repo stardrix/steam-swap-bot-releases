@@ -95,9 +95,7 @@ Your bot's Steam inventory must be set to **Public** so traders can see the card
 
 Live overview of the bot: status, total cards in stock, games covered, duplicates available to swap, completed swaps, and the swap rules currently in force.
 
-<!-- SCREENSHOT PENDING — upload the image, then delete this comment wrapper to show it:
-![Dashboard](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/Dashboard.png)
--->
+![Dashboard](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/Dashborad.png)
 
 ---
 
@@ -118,9 +116,7 @@ Configure your Steam credentials and access settings:
 
 All secret fields are hidden behind a reveal toggle.
 
-<!-- SCREENSHOT PENDING — upload the image, then delete this comment wrapper to show it:
-![Bot Account](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/Bot%20Account.png)
--->
+![Bot Account](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/BotAccount.png)
 
 ---
 
@@ -140,9 +136,7 @@ This is where you decide which swaps your bot accepts.
 
 Changes apply to the running bot instantly — no restart needed.
 
-<!-- SCREENSHOT PENDING — upload the image, then delete this comment wrapper to show it:
-![Swap Settings](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/Swap%20Settings.png)
--->
+![Swap Settings](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/SwapSettings.png)
 
 ### Which mode should I run?
 
@@ -172,9 +166,7 @@ Every incoming offer is checked before it is accepted. If anything fails, the of
 
 Connect your API key to the #1 verified **Steam bot listing** at SteamTradeBots.com. Your live card stock — total cards, games, duplicates and swap mode — is posted automatically and refreshed on a schedule you choose. Stopping the bot marks your listing offline so traders are never sent to a bot that isn't running.
 
-<!-- SCREENSHOT PENDING — upload the image, then delete this comment wrapper to show it:
 ![Listing](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/Listing.png)
--->
 
 ---
 
@@ -182,9 +174,7 @@ Connect your API key to the #1 verified **Steam bot listing** at SteamTradeBots.
 
 Persistent log of every swap — accepted and declined — that survives restarts. Filter by **Today**, **7 Days**, **30 Days** or **All**. Each row shows the offer ID, the trading partner, how many cards moved each way, and the reason for any decline.
 
-<!-- SCREENSHOT PENDING — upload the image, then delete this comment wrapper to show it:
-![Swap History](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/Swap%20History.png)
--->
+![Swap History](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/SwapHistory.png)
 
 ---
 
@@ -221,9 +211,7 @@ When a trader runs `!CHECK` or `!SWAP`, the bot compares both inventories set by
 
 Live feed of Steam chat messages and incoming trade offers, with each trader's Steam ID and the bot's response.
 
-<!-- SCREENSHOT PENDING — upload the image, then delete this comment wrapper to show it:
-![Chat Monitor](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/Chat%20Monitor.png)
--->
+![Chat Monitor](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/ChatMonitor.png)
 
 ---
 
@@ -233,15 +221,17 @@ Raw bot log output with INFO, WARN, and ERROR entries. One-click clear.
 
 The **🛟 Support Report** button gathers everything support needs — app version, OS, bot state, and the recent log — into one report, copied to your clipboard and saved as a file. Passwords, secrets, and API keys are never included. If something goes wrong, send that one paste instead of screenshots.
 
-<!-- SCREENSHOT PENDING — upload the image, then delete this comment wrapper to show it:
 ![Logs](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/Logs.png)
--->
 
 ---
 
 ## Getting a License
 
-Visit **[steamtradebots.com](https://www.steamtradebots.com/)** to purchase and activate a license. The license is tied to your machine and validated on startup.
+Visit **[steamtradebots.com](https://www.steamtradebots.com/)** to purchase and activate a license. Paste your key into the License tab and the bot activates instantly — you only do this once, the license is remembered between restarts.
+
+The license is tied to your machine and re-checked automatically while the bot runs. If you are on a time-limited plan you will see a reminder in the app before it expires.
+
+![License](https://www.steamtradebots.com/assets/images/Bots/SteamSwapBot/License.png)
 
 ---
 
